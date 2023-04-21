@@ -36,9 +36,9 @@
                 </div>
                 <div>
                     <a class="text-light" href="https://web.facebook.com/pablito.23334/" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i>facebook</a>
-                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i>instagram</a>
-                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i>Twitter</a>
-                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i>linke</a>
+                    <a class="text-light" href="https://www.instagram.com/juanpablopisco/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i>instagram</a>
+                    <a class="text-light" href="https://twitter.com/JuanPabloPisco1" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i>Twitter</a>
+                    <a class="text-light" href="https://www.linkedin.com/in/juan-pablo-pisco-9776b3273/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i>linke</a>
                 </div>
             </div>
         </div>

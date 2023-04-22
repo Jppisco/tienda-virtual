@@ -25,7 +25,7 @@ class Principal extends Controller
     public function detail($id_producto)
     {
         $data['producto']=$this->model->getProducto($id_producto);
-        $data['title'] =$data['producto']['nombre'];
+        $data['title']= $data['producto']['nombre'];
         $this->views->getView('principal', "shop-single", $data);
     }
      //vista contactos

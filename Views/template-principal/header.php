@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="<?php echo BASE_URL.'assets/img/apple-icon.png';?>">
+    <link rel="apple-touch-icon" href="<?php echo BASE_URL;?>'assets/img/apple-icon.png'">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL.'assets/img/favicon.ico';?>">
 
     <link rel="stylesheet" href="<?php echo BASE_URL.'assets/css/bootstrap.min.css';?>">
@@ -18,8 +18,9 @@
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 
     <!-- Slick -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL.'assets/css/slick.min.css';?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL.'assets/css/slick-theme.css';?>">
+    
 
 </head>
 

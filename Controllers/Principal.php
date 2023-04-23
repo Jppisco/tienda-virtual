@@ -24,7 +24,8 @@ class Principal extends Controller
         $data['title'] = 'Nuestra Tienda';
         $data['productos']=$this->model->getProductos($desde, $porPagina);
         $data['pagina']=$pagina;
-        $data['total']=$this->model->getTotalProductos();
+        $total=$this->model->getTotalProductos();
+        $data['total']=ceil($total['total']/$porPagina);
         $this->views->getView('principal', "shop", $data);
     }
     //vista shop-single
@@ -40,4 +41,35 @@ class Principal extends Controller
          $data['title'] = 'Contactos';
          $this->views->getView('principal', "contact", $data);
      }
+      //vista categorias
+    public function categorias($datos)
+     {
+        $id_categoria=1;
+        $page=1;
+        $array=explode(',',$datos);
+        if(isset($array[1])){
+            if(!empty($array[1])){
+                $page=$array[1];
+            }
+        } 
+
+        if(isset($array[0])){
+            if(!empty($array[0])){
+                $id_categoria=$array[0];
+            }
+        } 
+        $pagina=(empty($page))? 1 : $page;
+        $porPagina = 10;
+        $desde=($pagina - 1)*$porPagina;
+
+        $data['pagina']=$pagina;
+        $total=$this->model->getTotalProductosCat($id_categoria);
+        $data['total']=ceil($total['total']/$porPagina);
+
+        
+        $data['productos']=$this->model->getProductosCat($id_categoria,$desde,$porPagina);
+        $data['title']= 'Categorias';
+        $data['id_categoria']= $id_categoria;
+        $this->views->getView('principal', "categorias", $data);
+    }
 }

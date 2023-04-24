@@ -2,11 +2,14 @@
 <html lang="en">
 
 <head>
+    
     <title><?php echo TITLE.' - '. $data['title'];?></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="<?php echo BASE_URL;?>'assets/img/apple-icon.png'">
+    <link rel="apple-touch-icon" href="<?php echo BASE_URL.'assets/img/apple-icon.png';?>">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL.'assets/img/favicon.ico';?>">
 
     <link rel="stylesheet" href="<?php echo BASE_URL.'assets/css/bootstrap.min.css';?>">
@@ -14,8 +17,8 @@
     <link rel="stylesheet" href="<?php echo BASE_URL.'assets/css/bootstrap.min.css';?>">
 
     <!-- Load fonts style after rendering the layout styles -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL.'https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap';?>">
+    <link rel="stylesheet" href="<?php echo BASE_URL.'assets/css/fontawesome.min.css';?>">
 
     <!-- Slick -->
     <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL.'assets/css/slick.min.css';?>">

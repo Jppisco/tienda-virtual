@@ -8,4 +8,5 @@ const CHARSET = "charset=utf8";
 const TITLE = "Baby Shop";
 const MONEDA = "COP";
 const CLIENT_ID = "";
-?>
+const KEY = "develoteca";
+const COD = "AES-128-ECB";
